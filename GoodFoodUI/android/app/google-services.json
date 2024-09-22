@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "380200953056",
+    "project_id": "good-food-lvtn",
+    "storage_bucket": "good-food-lvtn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380200953056:android:448787db5f1b7f85bf5c85",
+        "android_client_info": {
+          "package_name": "com.example.good_food"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380200953056-b03b7kmq82s8jrsp7ga2adm59c890ede.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTPSeLMclW3QsfznGEhZIqUhXhMbhKlSA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380200953056-b03b7kmq82s8jrsp7ga2adm59c890ede.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

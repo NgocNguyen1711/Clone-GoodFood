@@ -1,0 +1,50 @@
+version: '3.4'
+
+services:
+  goodfoodapi:
+    image: ${DOCKER_REGISTRY-}goodfoodapi
+    container_name: goodfoodapi
+    environment:
+      GOOGLE_APPLICATION_CREDENTIALS: ./firebase-config.json
+    build:
+      context: .
+      dockerfile: GoodFoodAPI/Dockerfile
+    volumes:
+      - D:/Images:/app/wwwroot
+    ports:
+      - "8443:443"
+    restart: always
+  db:
+    image: "mcr.microsoft.com/mssql/server:2019-latest"
+    container_name: mssqlserver
+    restart: always
+    hostname: mssqlserver
+    environment:
+      SA_PASSWORD: Goodfood@123
+      ACCEPT_EULA: Y
+    volumes:
+      - D:/Database:/var/opt/mssql/data
+    ports:
+      - "1433:1433"
+  #elasticsearch:
+  #  container_name: els
+  #  image: docker.elastic.co/elasticsearch/elasticsearch:7.16.1
+  #  ports:
+  #    - 9200:9200
+  #  volumes:
+  #    - D:/ELK:/usr/share/elasticsearch/datafile
+  #  environment:
+  #    - xpack.monitoring.enabled=true
+  #    - xpack.watcher.enabled=true
+  #    - xpack.security.enabled=false
+  #    - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+  #    - discovery.type=single-node
+  #kibana:
+  #  container_name: kibana
+  #  image: docker.elastic.co/kibana/kibana:7.16.1
+  #  depends_on:
+  #    - elasticsearch
+  #  environment:
+  #    - ELASTICSEARCH_URL=http://localhost9200
+  #  ports:
+  #    - "5601:5601"

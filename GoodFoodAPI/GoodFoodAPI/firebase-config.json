@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "good-food-lvtn",
+  "private_key_id": "5c64401d9f3c14c8b00cd42341cf965b6a3e84ce",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCa3YUvwtlSQcUP\nBLgX4UvxAkoTOHVPoXFMtcmjxMOEH4CZa+H+Y5ueod5rbVoqopM59cECH7/If5Bi\nkm5EFiCCKXK/T4YELv9JC7xZdRKRZLmRj96w0y3dDkRNtCZmDMHoD90ukerlBGrA\nrFIAvdNzCuEwLeK6drvF/YepHKDj83o0IC0qZrmlQSzJaC7RgJfv7UkULk48pQjs\n8ohLtMHpSGkPt0XcFW9Gz7dqlSlc0V9PSzHwEBvfjri68ACqgtCpjdgWnTcfH0Kj\nPdjqZlOtTP8i4v2evujQlZ/fSotL6mTbahmreatpbDyHdrM7Td1n4w5HVu2R8zcK\nyck1XAcfAgMBAAECggEADmplbfM40I/fvIynaE2oCIi6hXyBawavqcDYQr7bpk5a\nZa2lrUzvXP5bWmuk84gLpV8Ldtumug6pzYss6XiX0RXzoPxRkM0hJVcK0tbzggY6\nweJ/C720rLmZwRPuaRxx5lynraCWmXfmSgYgYgJJjxFpsdbrnojT5NO7T5IjJeTM\nm+4aa/rR+dL/2e7FkJhxGx+DkCF1FP/nuM/gaV29PAjkD/cr4k9raPV89YIARRPU\nZn6VwAIBCP4LTFdh93bVr+y8OUHbu3JTNTqPMH1XyM+4F2y1QXTOuA8edWX4P8wq\nIOMJnqZQ2lUClAItqbjYtAx8gFMLn0HlFmPwFDX8uQKBgQDMV9v8cbFEGxeL/S2j\n0usEK/Kb1GPGg0EAVJOS5NdJ9Ig2kN8cSq03t6eJuxPKTbYf4AHLwJn+YDsZmvR3\n+RYOqA7shsY4res49m2BivfGJYM7wFCEOc4EIChl/SM24IqSy1xl3cM0BQtz6JM7\n2fgkxhNcuKGwF9oXM4EqWYsohwKBgQDCA66zWexpna1C1/6OS1CUj2TA3HZHaqAT\nDlkTBJ8gjhTFaqvFYViIyQIe6hwEZJp7nj6qytJULSMkJ6eCcmdRMkLNAzc8/1UJ\nK1LKBAiMZBOqXlz72k+egqanHUiZ0Pji83LAN4xQS/CeR0dFHJ5n1dFD30FmwbAI\nWan/rw8KqQKBgEKAFUeCeH4BkxgrvL6j1Xf2FW5BIHdqH61L2PrlHmsi+XFIlFNQ\nui53xj48c6RSxgJ5lBwLAhKWnqUmmIiyt0rtxm2TLs8jSnmvONP/tcL2Uk8PtyRQ\n64rMLFmEmAEz8eTz6Y39LZmwSpneBoxj0y2kiIiUTYpRONh0GoT9vxvhAoGBAJkC\nmncsRj0Nc6Wx/zptv4FKjaVkuYudVd1xhWJwVKcyJsODWzDxkwddr+R9sdbtGMDB\njp7YEoT8jChpdbx1SXJJ91EEZj4fCQuQNVzJTYybKL9GaILgK8bRN2m4uJdGreMf\nKLLbnDd/jKbnhBfHeE5f3QhwPH4z5wbO4Dmb8HrxAoGBAMM5CRynYhJ3N7bG3S9V\nrMQOgadColsg7sUdBfBQ20ssbQPBKCynDIxLkQNmaX0OF8x/tZ/PAKk3BNd86VES\nVy5Vnu05RXzO8xNaY+qFWl2QwCc1jzw3sM3y2dHwJLasK0wBQx2JoPz65hyXP0Ns\nbViJyGeKeNDUqfMc4pRYYYti\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-ogk89@good-food-lvtn.iam.gserviceaccount.com",
+  "client_id": "103001030890798166068",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-ogk89%40good-food-lvtn.iam.gserviceaccount.com"
+}
